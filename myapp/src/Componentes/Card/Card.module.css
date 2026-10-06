@@ -1,0 +1,48 @@
+
+
+:root{
+    --dark: #222;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.card {
+    display: flex;
+    margin: 11rem auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    max-width: 90%;
+    background-color: #ddd;
+    padding: 2.5rem;
+    width: 28%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px #555;
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.card .buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buttons button {
+    border: 0;
+    box-shadow: 1px 4px 8px #333;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: #333;
+}
